@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BU33SD5WG-TR
+D LDO regulator,3.3V,0.5A,standby,SSOP5 ROHM BU33SD5WG-TR, LDO Voltage Regulator, 0.5A, 3.3 V +/-2%, 1.7  6 Vin, 5-Pin SSOP
+K
+F https://componentsearchengine.com/Datasheets/1/BU33SD5WG-TR.pdf
+$ENDCMP
+#
+#End Doc Library

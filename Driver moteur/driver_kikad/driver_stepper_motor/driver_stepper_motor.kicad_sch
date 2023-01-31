@@ -1188,7 +1188,7 @@
     (uuid 2c828bfa-0e4c-4f43-83ad-e7dc709243ae)
     (property "Reference" "bouton_reset1" (id 0) (at 81.28 88.9 0))
     (property "Value" "SW_Push" (id 1) (at 81.28 91.44 0))
-    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (id 2) (at 81.28 91.44 0)
+    (property "Footprint" "2-1437565-7:SW_2-1437565-7" (id 2) (at 81.28 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 81.28 91.44 0)
@@ -1690,7 +1690,7 @@
       (reference "U1") (unit 1) (value "STM32G031G8U6") (footprint "Package_DFN_QFN:QFN-28_4x4mm_P0.5mm")
     )
     (path "/2c828bfa-0e4c-4f43-83ad-e7dc709243ae"
-      (reference "bouton_reset1") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_PUSH_6mm")
+      (reference "bouton_reset1") (unit 1) (value "SW_Push") (footprint "2-1437565-7:SW_2-1437565-7")
     )
   )
 )

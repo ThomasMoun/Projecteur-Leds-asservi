@@ -1,4 +1,4 @@
-20405011992336378
+20406684744127340
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86072,13 +86072,6 @@ R0603
 2
 2
 stm32l021
-RegLIN
-BD45232G-TR-SSOP5
-Power Supply
-0
-5
-5
-stm32l021
 SAMTEC_FTSH-107-01-L-DV
 
 
@@ -86092,6 +86085,20 @@ SOIC127P600X175-14N
 0
 14
 14
+stm32l021
+SOT95P237X112-3N
+SQ2310ES-T1_GE3
+MOSFET (N-Channel)
+0
+3
+3
+stm32l021
+SOT95P280X125-5N
+BD45232G-TR-SSOP5
+Power Supply
+0
+5
+5
 stm32l021
 SW_2-1437565-7
 

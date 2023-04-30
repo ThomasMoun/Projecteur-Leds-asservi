@@ -19,6 +19,12 @@ Deadline le 12 mai 2023
 
 *images du schéma et description*
 
+![image](https://user-images.githubusercontent.com/103488210/Diagramme-Architecture-V2.jpg)
+*<p align =center>Schéma général d'architecture</p>*
+
+
+
+
 ## Organisation du dépôt git
 
 *Qu'est-ce qu'on va trouver dans les différents dossiers*

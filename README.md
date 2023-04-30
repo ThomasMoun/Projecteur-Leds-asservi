@@ -1,5 +1,8 @@
 # Projecteur-Leds-asservi
-Projet de 2ème année ENSEA
+
+*N.B. : Ce README s'adresse aux futurs ensearques qui auront le courage de s'aventurer sur le sinueux chemin de ce projet ; il s'adresse aussi aux électroniciens curieux et avide de découvertes ; enfin il s'adresse évidemment à nos chers professeurs.*
+
+Rappel consignes : Projet de 2ème année ENSEA
 
 Deadline le 12 mai 2023
  Tout doit être sur github (Hardware, software, méca...)
@@ -7,34 +10,35 @@ Deadline le 12 mai 2023
         Schémas KiCAD également commentés
     "Rapport" dans le README, avec de la mise en forme (markdown)
         On veut quelque chose de concis
-        À destination des futurs étudiants reprenant le projet
-        Où à toute autre électronicien.ne voulant reprendre le projet.
 
-Voici une suggestion de plan pour le README :
+## Introduction
 
-    Introduction
-        Qu'est-ce que c'est
-        À quoi ça sert
-        Comment c'est prévu qu'on s'en serve
-    Schémas d'architecture Hardware et/ou Software
-        Image intégrée dans le README
-        + Texte d'explications
-    Organisation du dépôt git
-        Qu'est-ce qu'on va trouver dans les différents dossiers
-        Quels logiciels utilisés? (KiCAD, Onshape, STM32CubeIDE...)
-        
-|Design de PCB |Modélisation 3D | Programmation des cartes|
-|-------------:|----------------|-------------------------|
-|    KiCAD     |     Onshape    |    STM32CubeIDE         |
-|    Eagle     |     SDK        |                         |
+*description de ce que c'est, utilité et domaine d'utilisation, comment s'en servir, manipulations prévues*
+
+## Schémas d'architecture Hardware et/ou Software
+
+*images du schéma et description*
+
+## Organisation du dépôt git
+
+*Qu'est-ce qu'on va trouver dans les différents dossiers*
+*Quels logiciels utilisés? (KiCAD, Onshape, STM32CubeIDE...)*
+
+## Documentation
+
+*Ce qui marche/Ce qui marche pas*
+
+- L'architecture du PCB de contrôle est correcte dans l'ensemble et possède tous les composants nécéssaires au bon fonctionnement du projecteur. Le régulateur linéaire est à déplacer car, suite à un soucis d'impression de via, on a rencontré des difficultés à le souder correctement empêchant son fonctionnement. Certaines capacités de découplage sont potentiellement à rapprocher du projecteur.
+    
+## TODO
        
-    Documentation
-    Ce qui marche/Ce qui marche pas
-    TODO
-        Version étendu de "ce qui marche pas" à destination des générations futures
-        Vous pouvez proposer des recommandations (même si les futurs 2A n'en feront qu'à leur tête
-        
-        
+- La carte 
+*Version étendu de "ce qui marche pas" à destination des générations futures*
+*Vous pouvez proposer des recommandations (même si les futurs 2A n'en feront qu'à leur tête*
+
+
+
+    
         
 # Le DMX
 

@@ -19,9 +19,24 @@ Deadline le 12 mai 2023
 
 *images du schéma et description*
 
-![image](https://user-images.githubusercontent.com/103488210/Diagramme-Architecture-V2.jpg)
+
+*<p align = center>Schéma structurel</p>*
+
+<p align="center">
+  <img width="700" height="500" src="https://github.com/ThomasMoun/Projecteur-Leds-asservi/blob/main/archiglobale.jpg">
+</p>
+
 *<p align =center>Schéma général d'architecture</p>*
 
+<p align="center">
+  <img width="1000" height="600" src="https://github.com/ThomasMoun/Projecteur-Leds-asservi/blob/main/Diagramme%20Architecture%20V2.jpg">
+</p>
+
+*<p align = center>Schéma commande et puissance</p>*
+
+<p align="center">
+  <img width="800" height="450" src="https://github.com/ThomasMoun/Projecteur-Leds-asservi/blob/main/Archi%20pcb%20puissance%20et%20commande.jpg">
+</p>
 
 
 

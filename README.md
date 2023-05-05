@@ -1,4 +1,25 @@
-# Projecteur-Leds-asservi
+# Projecteur-Leds-asservi  <p align="right"> <img width="80" height="80" src="https://github.com/ThomasMoun/Projecteur-Leds-asservi/blob/main/Logo_ENSEA.svg.png"> </p>
+
+<p align="center"> 
+ <img width="250" height="250" src="https://github.com/ThomasMoun/Projecteur-Leds-asservi/blob/main/projecteur%20de%20r%C3%AAve.png">
+ 
+ <img width="200" height="340" src="https://github.com/ThomasMoun/Projecteur-Leds-asservi/blob/main/IMG_20230501_220601.jpg">
+
+ <img width="200" height="250" src="https://github.com/ThomasMoun/Projecteur-Leds-asservi/blob/main/Untitled.png">
+
+|Etudiants en charge du projet |       
+|:----------------------------:|       
+|Tom Charbonneau               |       
+|Baptiste Gilles               |       
+|Ludovic Sercy                 |
+|Thomas Mouneyrat              |
+|Bassem Barakat                |
+|Quentin de La Chaise          |
+
+|Professeurs encadrants le projet |
+|:-------------------------------:|
+|Nicolas Papazoglou               |
+|Laurent Fiack                    |
 
 *N.B. : Ce README s'adresse aux futurs ensearques qui auront le courage de s'aventurer sur le sinueux chemin de ce projet ; il s'adresse aussi aux électroniciens curieux et avide de découvertes ; enfin il s'adresse évidemment à nos chers professeurs.*
 
@@ -13,14 +34,33 @@ Deadline le 12 mai 2023
 
 ## Introduction
 
-*description de ce que c'est, utilité et domaine d'utilisation, comment s'en servir, manipulations prévues*
+Le projecteur Leds est, comme son nom l'indique, un structure permettant l'éclairage coloré et la mise en valeur de décor dans différents évènements plus ou moins festifs.
+Un projecteur de ce type doit pouvoir bouger suivant différents axes (2 dans notre cas Tilt-Pan) et le zoom ainsi que la couleur de la lumière émise doivent être ajustables.
+Ce projet s'inscrit donc dans les domaines de la lumière et du son, et serait en théorie piloté par un régisseur lors d'évènements.
+Ainsi, à la fin de la conception de ce projet on doit pouvoir être capable de le faire bouger en choisissant la direction et l'axe de mouvement, on doit aussi être en mesure de changer la couleur et de centrer la lumière sur des zones précises (tout cela via un unique contrôleur).
+
+## Organisation du dépôt git
+
+*Qu'est-ce qu'on va trouver dans les différents dossiers*
+*Quels logiciels utilisés? (KiCAD, Onshape, STM32CubeIDE...)*
+
+*Logiciels utilisés*
+
+|Conception/Design PCB | Modélisation 3D | Programmation des cartes et définition des connexions |
+|:--------------------:|:---------------:|:-----------------------------------------------------:|
+|KiCAD 6.0             |Onshape          |STM32CubeIDE et STM32CubeMX                            |
+
+|Alternatives possibles                                                                          |
+|:----------------------------------------------------------------------------------------------:|
+|Eagle (PCB)     /    Solidworks (onshape a l'avantage d'être gratuit)                           |
+
+|Gestion de projet                                                                               |
+|:----------------------------------------------------------------------------------------------:|
+|Google Drive/Github/Redmine de l'école                                                          |                   
 
 ## Schémas d'architecture Hardware et/ou Software
 
-*images du schéma et description*
-
-
-*<p align = center>Schéma structurel</p>*
+_<p align = center>Schéma structurel</p>_
 
 <p align="center">
   <img width="700" height="500" src="https://github.com/ThomasMoun/Projecteur-Leds-asservi/blob/main/archiglobale.jpg">
@@ -40,15 +80,11 @@ Deadline le 12 mai 2023
 
 
 
-## Organisation du dépôt git
-
-*Qu'est-ce qu'on va trouver dans les différents dossiers*
-*Quels logiciels utilisés? (KiCAD, Onshape, STM32CubeIDE...)*
-
 ## Documentation
 
 *Ce qui marche/Ce qui marche pas*
 
+- Le réglage en intensité (via le contôleur) de la led issu du pcb "led test" fonctionne, le code qui passe par le DMX est donc correcte
 - L'architecture du PCB de contrôle est correcte dans l'ensemble et possède tous les composants nécéssaires au bon fonctionnement du projecteur. Le régulateur linéaire est à déplacer car, suite à un soucis d'impression de via, on a rencontré des difficultés à le souder correctement empêchant son fonctionnement. Certaines capacités de découplage sont potentiellement à rapprocher du projecteur.
     
 ## TODO

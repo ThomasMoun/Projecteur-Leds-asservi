@@ -80,10 +80,25 @@ Ce schéma nous a permis de synthétiser "qui a quel rôle" en commande et en al
 
 *Ce qui marche/Ce qui marche pas*
 
+Général : 
+
 -La carte d'alimentation semble fontionner bien qu'elle n'est pas été testé avec tout, elle possède tous les composants nécessaire à l'alimentation de l'ensemble
 - Le réglage en intensité (via le contôleur) de la led issu du pcb "led test" fonctionne, le code qui passe par le DMX est donc correcte.
-- Le mouvement du projecteur via le pilotage des moteurs n'est pas fiable, le code et des poids structurels sont à revoir
+- Le mouvement du projecteur via le pilotage des moteurs n'est pas fiable, le code et des poids structurels sont à revoir.
 - L'architecture du PCB de contrôle est correcte dans l'ensemble et possède tous les composants nécéssaires au bon fonctionnement du projecteur. Le régulateur linéaire est à déplacer car, suite à un soucis d'impression de via, on a rencontré des difficultés à le souder correctement empêchant son fonctionnement. Certaines capacités de découplage sont potentiellement à rapprocher du projecteur.
+
+Point mécanique : 
+
+Certaines des pièces sont à revoir pour la conception, il s'agit d'un prototype et il comporte beaucoup de défaut.
+
+Défaut:
+- Axe difficile à monter sur la pièce en U, il faut tordre la pièce en U pour insérer l'axe.
+- Pas de buté axial sur l'axe
+- tolérance des trous pas assez grands
+- Solidité des axes des engrenages faibles
+- Cage des engrenages trop rigide
+- Montage des vis de la tête de projecteur impossible à cause de la structure en U qui empêche son accès
+- Les vis de maintien entre la base et la partie tournante du projecteur étaient difficilement accessibles
     
 ## TODO
  
@@ -92,6 +107,14 @@ Ce schéma nous a permis de synthétiser "qui a quel rôle" en commande et en al
 - Reste à traiter le ventilateur ou un système de refroidissement de la struture (ventilo prévue dans la carte d'alimentation)
 - Dans la lignée du ventilo, à voir pour un changement de matériau pour la structure ; l'ensemble est amené à chauffer
 - Le zoom est une partie qu'on a très peu traité faute de temps, le projet de base est d'utiliser des lentilles placées devant chaque leds et qu'on viendrait éloignées ou rapprochées des leds pour zoomer. Le mouvement se ferait au travers d'un axe interne au projecteur (prévu dans la structure
+
+Point mécanique :
+ 
+Amélioration :
+-Tolérance plus grande
+-Utiliser un filetage dans les trous au lieu de vis + écrou
+-Certains axes pas assez dimensionner pour résister aux contraintes
+-Faire une structure moins rigide pour la cage des engrenages
 
 
 ## Deux points techniques importants    
